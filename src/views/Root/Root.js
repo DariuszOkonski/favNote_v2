@@ -5,7 +5,8 @@ const Root = () => {
   return (
     <div>
       <h1>Hello Roman</h1>
-      <Button>My button</Button>
+      <Button>Close / Save</Button>
+      <Button secondary>Remove</Button>
     </div>
   );
 };
