@@ -1,5 +1,11 @@
 import styled, { css } from 'styled-components';
 
+export const buttonBackgroundOptions = {
+  primary: 'hsl(49, 100%, 58%)',
+  secondary: 'hsl(196, 83%, 75%)',
+  tertiary: 'hsl(106, 47%, 64%)',
+};
+
 const Button = styled.button`
   padding: 0;
   background-color: ${({ color }) => color || '#ffd82b'};
