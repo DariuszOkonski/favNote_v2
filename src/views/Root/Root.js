@@ -1,4 +1,5 @@
-import Button, { buttonBackgroundOptions } from 'components/Button/Button';
+import Button from 'components/Button/Button';
+import { colorOptions } from 'components/helper';
 import GlobalStyle from 'theme/GlobalStyle';
 
 // NODE - v20.19.0
@@ -7,7 +8,7 @@ const Root = () => {
     <div>
       <GlobalStyle />
       <h1>Hello Roman</h1>
-      <Button color={buttonBackgroundOptions.primary} width='300px'>
+      <Button color={colorOptions.primary} width='300px'>
         Close / Save
       </Button>
       <Button>Close / Save</Button>
