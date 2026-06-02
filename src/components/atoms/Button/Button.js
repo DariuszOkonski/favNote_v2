@@ -1,9 +1,7 @@
-import { colors } from 'helpers/colors';
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`
   padding: 0;
-  /* background-color: ${({ color }) => color || colors.primary}; */
   background-color: ${({ theme }) => theme.primary};
   width: ${({ width }) => width || '220px'};
   height: 47px;
@@ -17,7 +15,7 @@ const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     css`
-      background-color: ${colors.grayPrimary};
+      background-color: ${({ theme }) => theme.grey100};
       width: 105px;
       height: 30px;
       font-size: 10px;

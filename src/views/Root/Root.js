@@ -1,12 +1,8 @@
 import { Fragment } from 'react';
 import Button from 'components/atoms/Button/Button';
-import { colors } from 'helpers/colors';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from 'theme/GlobalStyle';
-
-const theme = {
-  primary: 'black',
-};
+import { theme } from 'theme/mainTheme';
 
 // NODE - v20.19.0
 const Root = () => {
@@ -16,7 +12,7 @@ const Root = () => {
       <ThemeProvider theme={theme}>
         <Fragment>
           <h1>Hello Roman</h1>
-          <Button color={colors.primary} width='300px'>
+          <Button color={theme.primary} width='300px'>
             Close / Save
           </Button>
           <Button>Close / Save</Button>
