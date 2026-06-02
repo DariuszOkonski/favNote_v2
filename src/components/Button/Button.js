@@ -1,4 +1,4 @@
-import { colorOptions } from 'components/helper';
+import { colorOptions } from 'helpers/colors';
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`

@@ -1,5 +1,5 @@
 import Button from 'components/Button/Button';
-import { colorOptions } from 'components/helper';
+import { colorOptions } from 'helpers/colors';
 import GlobalStyle from 'theme/GlobalStyle';
 
 // NODE - v20.19.0
