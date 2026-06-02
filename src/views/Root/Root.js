@@ -1,4 +1,4 @@
-import Button from 'components/Button/Button';
+import Button from 'components/atoms/Button/Button';
 import { colorOptions } from 'helpers/colors';
 import GlobalStyle from 'theme/GlobalStyle';
 
