@@ -1,7 +1,7 @@
 import Button, { buttonBackgroundOptions } from 'components/Button/Button';
 import GlobalStyle from 'theme/GlobalStyle';
 
-// NODE - v18
+// NODE - v20.19.0
 const Root = () => {
   return (
     <div>
