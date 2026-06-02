@@ -22,7 +22,8 @@ const Root = () => {
           <Button secondary>Remove</Button>
 
           <Heading>Heading h1</Heading>
-          <Input placeholder='Input' />
+          <Input placeholder='Login' />
+          <Input search placeholder='Search' />
           <Paragraph>Paragraph</Paragraph>
         </Fragment>
       </ThemeProvider>
