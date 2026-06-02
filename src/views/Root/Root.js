@@ -1,5 +1,5 @@
 import Button from 'components/atoms/Button/Button';
-import { colorOptions } from 'helpers/colors';
+import { colors } from 'helpers/colors';
 import GlobalStyle from 'theme/GlobalStyle';
 
 // NODE - v20.19.0
@@ -8,7 +8,7 @@ const Root = () => {
     <div>
       <GlobalStyle />
       <h1>Hello Roman</h1>
-      <Button color={colorOptions.primary} width='300px'>
+      <Button color={colors.primary} width='300px'>
         Close / Save
       </Button>
       <Button>Close / Save</Button>
